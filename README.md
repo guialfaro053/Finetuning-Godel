@@ -4,7 +4,7 @@ GODEL (Large-Scale Pre-Training for Goal-Directed Dialog) is an conversational a
 
 --- 
 The data was is formatted as follows in JSON format:
-
+It is assumed that each conversation turn corresponds to the user and conversational agent respectively in the context key.
 ```json
   {
     "Instruction": "Instruction: given a dialog context and a description of an AI assistant, you need to response emphatically."
@@ -16,7 +16,8 @@ The data was is formatted as follows in JSON format:
             "I am 23 years old. How about you?",
             ...
             ]
-  },
+  }
 ```
 
-It is assummed that each conversation turn corresponds to the user and conversational agent respectively.
+---
+
