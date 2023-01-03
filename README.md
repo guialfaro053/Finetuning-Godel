@@ -13,8 +13,8 @@ The data was is formatted as follows in JSON format:
             "Hello",
             "Hey! How are you doing today?",
             "I am okay. How old are you?",
-            "I am 23 years old. How about you?"
-            ...
+            "I am 23 years old. How about you?",
+            ***
             ]
   },
 ```
